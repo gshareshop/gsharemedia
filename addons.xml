@@ -674,7 +674,7 @@ For updates check the readme.
   </extension>
 </addon>
 
-<addon id="plugin.video.xshare" name="[COLOR cyan]Kho Phim HD[/COLOR]" version="2018.05.01" provider-name="salemmax và thaitni">
+<addon id="plugin.video.xshare" name="[COLOR cyan]Kho Phim HD[/COLOR]" version="2018.09.14" provider-name="salemmax và thaitni">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
 		<import addon="script.video.F4mProxy" optional="true"/>
