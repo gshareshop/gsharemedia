@@ -26,6 +26,21 @@
   </extension>
 </addon>
 
+    <addon id="plugin.video.v137.tvhay" version="9999999.4" name="TV Hay" provider-name="V137">
+		<requires>
+			<import addon="xbmc.python" version="2.1.0" />
+			<import addon="script.module.v137" />
+		</requires>
+		<extension point="xbmc.python.pluginsource" library="default.py">
+			<provides></provides>
+		</extension>
+		<extension point="xbmc.addon.metadata">
+			<summary>TV Hay</summary>
+			<description>TV Hay (Vietnamese)</description>
+			<platform>all</platform>
+		</extension>
+	</addon>
+
     <addon id="plugin.video.v137.bomtan" version="9999999.4" name="BomTan.org" provider-name="V137">
 		<requires>
 			<import addon="xbmc.python" version="2.1.0" />
