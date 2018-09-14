@@ -604,7 +604,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.salemmax.xxx" name="[COLOR red]Xem Phim Sex Tỗng Hợp[/COLOR]" version="1.2.3" provider-name="[COLOR lime]Salemmax[/COLOR]">
+<addon id="plugin.video.salemmax.xxx" name="[COLOR red]Xem Phim Sex Tỗng Hợp[/COLOR]" version="2018.09.14" provider-name="[COLOR lime]Salemmax[/COLOR]">
     <requires>
     </requires>
     <extension point="xbmc.python.pluginsource"
