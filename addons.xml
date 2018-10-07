@@ -2,29 +2,46 @@
 <addons>
 <addon
   id="plugin.video.salemmax.gshare"
-  version="6.0"
+  version="6.1"
   name="***[COLOR cyan]Gshare Media[/COLOR]***"
   provider-name="Salemmax Và thongld">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.xbmcswift2" version="0.0.7" />
+    <import addon="script.module.kodiswift" version="0.0.7" />
+    <import addon="script.module.gshare" version="0.0.7" />
     <import addon="plugin.video.youtube" version="4.4.1" />
     <import addon="script.module.httplib2" version="0.1" />
-    <import addon="service.salemmax.iptvproxy" version="1.0.8" />
-	<import addon="script.rawmaintenance" version="0.1" />
-	<import addon="service.salemmax.maintenance" version="1.1.1" />
+    <import addon="service.salemmax.iptvproxy" version="0.1" />
+    <import addon="service.salemmax.maintenance" version="0.1" />
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
   </extension>
   <extension point="xbmc.service" library="autorun.py" start="startup">
-  </extension>		
+  </extension>
   <extension point="xbmc.addon.metadata">
-    <summary>Media Gshare Tổng hợp các addon hay dành cho người Việt</summary>
-    <description>[COLOR cyan][B]Addons Media Gshare mở vì cộng đồng Kodi việt.Điều quan trọng nhất là bạn và mình làm mọi thứ với niềm đam mê và luôn duy trì niềm đam mê ấy đến cuối cùng.[/B][/COLOR]</description>
+    <summary>Gshare Media Tổng hợp các addon hay dành cho người Việt</summary>
+    <description>[COLOR cyan][B]Addons Gshare Media mở vì cộng đồng Kodi việt.Điều quan trọng nhất là bạn và mình làm mọi thứ với niềm đam mê và luôn duy trì niềm đam mê ấy đến cuối cùng.[/B][/COLOR]</description>
     <platform>all</platform>
   </extension>
 </addon>
+
+<addon id="script.module.gshare" version="1.0" name="Gshare Modules" provider-name="Salemmax">
+		<requires>
+			<import addon="xbmc.python" version="2.1.0" />
+			<import addon="script.module.requests" />
+			<import addon="script.module.kodi-six" />
+			<import addon="script.module.cachecontrol" />
+			<import addon="script.module.urlresolver" />
+			<import addon="script.module.future" />
+		</requires>
+		<extension point="xbmc.python.module" library="lib" />
+		<extension point="xbmc.addon.metadata">
+			<summary>Gshare Modules</summary>
+			<description>Gshare Modules</description>
+			<platform>all</platform>
+		</extension>
+	</addon>
 
 	<addon id="script.module.cachecontrol" version="0.1" name="CacheControl" provider-name="thongld">
 		<requires>
