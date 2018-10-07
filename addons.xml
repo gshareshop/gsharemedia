@@ -2,7 +2,7 @@
 <addons>
 <addon
   id="plugin.video.salemmax.gshare"
-  version="5.0"
+  version="6.0"
   name="***[COLOR cyan]Gshare Media[/COLOR]***"
   provider-name="Salemmax Và thongld">
   <requires>
