@@ -26,6 +26,18 @@
   </extension>
 </addon>
 
+	<addon id="script.module.cachecontrol" version="0.1" name="CacheControl" provider-name="thongld">
+		<requires>
+			<import addon="xbmc.python" version="2.1.0" />
+		</requires>
+		<extension point="xbmc.python.module" library="lib" />
+		<extension point="xbmc.addon.metadata">
+			<summary>Kodi4VN Modules</summary>
+			<description>Kodi4VN Modules</description>
+			<platform>all</platform>
+		</extension>
+	</addon>
+
 	<addon id="script.module.kodi4vn" version="0.9" name="Kodi4VN Modules" provider-name="thongld">
 		<requires>
 			<import addon="xbmc.python" version="2.1.0" />
@@ -1957,7 +1969,7 @@ Other languages with a great number of subtitles are: Danish, French, Swedish, D
   </extension>
 </addon>
 
-<addon id="script.module.kodiswift" name="kodiswift" provider-name="Aaron Frase (Sinap)" version="0.0.7.1">
+<addon id="script.module.kodiswift" name="kodiswift" provider-name="Aaron Frase (Sinap)" version="0.0.8">
   <requires>
     <import addon="xbmc.python" version="2.24.0"/>
   </requires>
@@ -2268,7 +2280,7 @@ Other languages with a great number of subtitles are: Danish, French, Swedish, D
 	</extension>
 </addon>
 
-<addon id="script.module.urlresolver" name="URLResolver" version="5.0.15" provider-name="tvaddons.ag, Eldorado">
+<addon id="script.module.urlresolver" name="URLResolver" version="5.0.23" provider-name="tvaddons.ag, Eldorado">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 	</requires>
@@ -2429,7 +2441,7 @@ Other languages with a great number of subtitles are: Danish, French, Swedish, D
 
 <addon
   id="service.kodi4vn.iptvproxy"
-  version="0.6"
+  version="0.9"
   name="**[COLOR yellow]IPTV Proxy[/COLOR]"
   provider-name="kodi4vn">
   <requires>
