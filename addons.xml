@@ -26,51 +26,51 @@
   </extension>
 </addon>
 
-<addon id="script.module.gshare" version="1.0" name="Gshare Modules" provider-name="Salemmax">
-		<requires>
-			<import addon="xbmc.python" version="2.1.0" />
-			<import addon="script.module.requests" />
-			<import addon="script.module.kodi-six" />
-			<import addon="script.module.cachecontrol" />
-			<import addon="script.module.urlresolver" />
-			<import addon="script.module.future" />
-		</requires>
-		<extension point="xbmc.python.module" library="lib" />
-		<extension point="xbmc.addon.metadata">
-			<summary>Gshare Modules</summary>
-			<description>Gshare Modules</description>
-			<platform>all</platform>
-		</extension>
-	</addon>
+<addon
+  id="plugin.video.salemmax.bilutv"
+  version="1.14"
+  name="*[COLOR yellow]BiluTV.com[/COLOR]"
+  provider-name="thongld">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.kodiswift" />
+    <import addon="script.module.kodi-six" />
+    <import addon="script.module.gshare" version="0.7" />
+    <import addon="script.module.cfscrape" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.urlresolver"/>
+    <import addon="script.module.futures"/>
+  </requires>
+  <extension point="xbmc.python.module" library="default.py" />
+  <extension point="xbmc.addon.metadata">
+    <summary>BiluTV</summary>
+    <description>Watch free BiluTV.com (Vietnamese) Channels</description>
+    <platform>all</platform>
+  </extension>
+</addon>
 
-	<addon id="script.module.cachecontrol" version="0.1" name="CacheControl" provider-name="thongld">
-		<requires>
-			<import addon="xbmc.python" version="2.1.0" />
-		</requires>
-		<extension point="xbmc.python.module" library="lib" />
-		<extension point="xbmc.addon.metadata">
-			<summary>Kodi4VN Modules</summary>
-			<description>Kodi4VN Modules</description>
-			<platform>all</platform>
-		</extension>
-	</addon>
-
-	<addon id="script.module.kodi4vn" version="0.9" name="Kodi4VN Modules" provider-name="thongld">
-		<requires>
-			<import addon="xbmc.python" version="2.1.0" />
-			<import addon="script.module.requests" />
-			<import addon="script.module.kodi-six" />
-			<import addon="script.module.cachecontrol" />
-			<import addon="script.module.urlresolver" />
-			<import addon="script.module.future" />
-		</requires>
-		<extension point="xbmc.python.module" library="lib" />
-		<extension point="xbmc.addon.metadata">
-			<summary>Kodi4VN Modules</summary>
-			<description>Kodi4VN Modules</description>
-			<platform>all</platform>
-		</extension>
-	</addon>
+<addon
+  id="plugin.video.salemmax.tvhay"
+  version="1.0.15"
+  name="*[COLOR yellow]TVHay.org[/COLOR]"
+  provider-name="thongld">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.kodiswift" />
+    <import addon="script.module.kodi-six" />
+    <import addon="script.module.cfscrape" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.gshare" version="0.6"/>
+    <import addon="script.module.urlresolver"/>
+    <import addon="script.module.futures"/>
+  </requires>
+  <extension point="xbmc.python.module" library="default.py" />
+  <extension point="xbmc.addon.metadata">
+    <summary>TVHay</summary>
+    <description>Watch free TVHay.org (Vietnamese)</description>
+    <platform>all</platform>
+  </extension>
+</addon>
 
     <addon id="plugin.video.v137.tvhay" version="9999999.4" name="TV Hay" provider-name="V137">
 		<requires>
@@ -1260,6 +1260,52 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 </addon>
 
 ===============================Max Script================================
+
+<addon id="script.module.gshare" version="1.0" name="Gshare Modules" provider-name="Salemmax">
+		<requires>
+			<import addon="xbmc.python" version="2.1.0" />
+			<import addon="script.module.requests" />
+			<import addon="script.module.kodi-six" />
+			<import addon="script.module.cachecontrol" />
+			<import addon="script.module.urlresolver" />
+			<import addon="script.module.future" />
+		</requires>
+		<extension point="xbmc.python.module" library="lib" />
+		<extension point="xbmc.addon.metadata">
+			<summary>Gshare Modules</summary>
+			<description>Gshare Modules</description>
+			<platform>all</platform>
+		</extension>
+	</addon>
+
+	<addon id="script.module.cachecontrol" version="0.1" name="CacheControl" provider-name="thongld">
+		<requires>
+			<import addon="xbmc.python" version="2.1.0" />
+		</requires>
+		<extension point="xbmc.python.module" library="lib" />
+		<extension point="xbmc.addon.metadata">
+			<summary>Kodi4VN Modules</summary>
+			<description>Kodi4VN Modules</description>
+			<platform>all</platform>
+		</extension>
+	</addon>
+
+	<addon id="script.module.kodi4vn" version="0.9" name="Kodi4VN Modules" provider-name="thongld">
+		<requires>
+			<import addon="xbmc.python" version="2.1.0" />
+			<import addon="script.module.requests" />
+			<import addon="script.module.kodi-six" />
+			<import addon="script.module.cachecontrol" />
+			<import addon="script.module.urlresolver" />
+			<import addon="script.module.future" />
+		</requires>
+		<extension point="xbmc.python.module" library="lib" />
+		<extension point="xbmc.addon.metadata">
+			<summary>Kodi4VN Modules</summary>
+			<description>Kodi4VN Modules</description>
+			<platform>all</platform>
+		</extension>
+	</addon>
 
 <addon id="script.module.streamlink.crypto" name="streamlink.crypto" version="1.4.0" provider-name="Streamlink.crypto">
   <requires>
