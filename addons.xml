@@ -26,6 +26,22 @@
   </extension>
 </addon>
 
+<addon id="plugin.video.fpt.hdplay" name="[COLOR blue][B]Box HDPlay[/B][/COLOR]" version="1.0" provider-name="gshare">
+	<requires> 
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.service" library="autostart.py" start="startup">
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>TV online.</summary>
+		<description>gshare chỉnh lý và tổng hợp các kênh.</description>
+		<disclaimer>[COLOR orangered]Các kênh được phổ biến và chia sẻ miễn phí trên internet. Chúng tôi không chịu bất kỳ trách nhiệm pháp lý.[/COLOR]</disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+
 <addon
   id="plugin.video.kodi4vn.fimfast"
   version="0.2"
