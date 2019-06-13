@@ -2,7 +2,7 @@
 <addons>
 <addon
   id="plugin.video.salemmax.gshare"
-  version="[COLOR cyan]6.2[/COLOR]"
+  version="6.3"
   name="***[COLOR cyan]Gshare Media[/COLOR]***"
   provider-name="[COLOR cyan]Salemmax[/COLOR]">
   <requires>
