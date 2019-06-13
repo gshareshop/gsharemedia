@@ -2,9 +2,9 @@
 <addons>
 <addon
   id="plugin.video.salemmax.gshare"
-  version="6.1"
+  version="[COLOR cyan]6.2[/COLOR]"
   name="***[COLOR cyan]Gshare Media[/COLOR]***"
-  provider-name="Salemmax Và thongld">
+  provider-name="[COLOR cyan]Salemmax[/COLOR]">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.kodiswift" version="0.0.7" />
